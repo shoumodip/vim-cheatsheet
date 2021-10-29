@@ -1,0 +1,11 @@
+*cheatsheet*  *cheatsheet.txt* Quickly invoke https://cht.sh
+
+Author:  Shoumodip Kar <shoumodipkar@gmail.com>
+License: MIT
+
+                                                *:Cheatsheet*
+:Cheatsheet           Query a programming language cheatsheet. The language
+                      and the query is selected by prompting from the user.
+
+                                                *:Cheatsheet!*
+:Cheatsheet!          Query a coreutil cheatsheet. UX is the same as above.
