@@ -24,6 +24,6 @@ function! cheatsheet#open(coreutil)
     let &l:buftype = "nofile"
     let &l:filetype = (a:coreutil || query == '') ? 'sh' : topic
 
-    execute 'read !curl -s cht.sh/' . topic . query . '?T'
+    execute 'read !curl -s cht.sh/' . topic . shellescape(query) . '\?T'
     silent! normal! gg=G
 endfunction
